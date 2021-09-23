@@ -6,10 +6,10 @@ We're not sure where we're going with this but we need Snyk Code reporting suppo
 
 To put new Snyk Code tests into a python dict, do:
 
-`snyk code test --json | python code_test_report`
+`snyk code test --json | python code-test-report`
 
 To run this on example test outputs, do:
 
-`cat examples/code_tests.json | python code_test_report`
+`cat examples/code_tests.json | python code-test-report`
 
 This is a start, enjoy!
